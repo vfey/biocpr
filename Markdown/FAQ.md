@@ -39,12 +39,12 @@ HGNC_symbol		Sample1			Sample2			Sample3
 
 Gene1			7.221534140		3.096289636		0.377739835
 
-Gene2			-1.922776449    0.991096096		3.378650875
+Gene2			-1.922776449            0.991096096		3.378650875
 
 Gene3			6.474929692		5.982874941		4.702968285
 ```
 
-
+i
 #### Q5: Is there any example data provided?
 
 **A:** Yes, an example data file is provided to try out the tool. You can find the file in `corplot/Data/exampleFIle/` folder.
