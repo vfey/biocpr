@@ -19,9 +19,9 @@
 
 2. PLOT DATA			-	The data to be plotted can be viewed in this file, the number of genes to be plotted can be increased/decreased using the slide bar (Number of Genes With Highest Variance) in DATA TABLE tab.
 
-3. CORRELATION HEATMAP      -	The heat map is generated and viewed in this tab.
+3. CORRELATION HEATMAP          -	The heat map is generated and viewed in this tab.
 
-4. CORRELATION MATRIX	    -	The correlation matrix generated can be viewed in this tab.
+4. CORRELATION MATRIX           -	The correlation matrix generated can be viewed in this tab.
 
 5. INFO - This tab presents a drop down with two tabs - 'FAQ' and 'ABOUT', from which frequently asked questions and information regarding availability, prerequisite packages and running information can be otained.
 
@@ -39,7 +39,7 @@ HGNC_symbol		Sample1			Sample2			Sample3
 
 Gene1			7.221534140		3.096289636		0.377739835
 
-Gene2			-1.922776449	    0.991096096		3.378650875
+Gene2			-1.922776449    0.991096096		3.378650875
 
 Gene3			6.474929692		5.982874941		4.702968285
 ```
