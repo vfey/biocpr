@@ -613,10 +613,9 @@ shinyServer(function(input, output, session) {
     showModal(
       modalDialog(
         HTML(
-          '<img src="http://www.google.nl/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">'
+          '<img src="https://gitlab.utu.fi/dhajam/corplot/blob/master/Markdown/FAQ.md">'
         ),
         title = "Example expression file",
-        "This is a somewhat important message, listen carefully human.",
         easyClose = TRUE,
         footer = NULL
       )
