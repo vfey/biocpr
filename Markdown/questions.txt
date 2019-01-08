@@ -1,0 +1,12 @@
+1. Disclaimer
+2. Availability
+3. Required software
+
+Launching corplot
+
+1. run using github
+2. run as a downloaded zip
+
+Contact details
+
+
