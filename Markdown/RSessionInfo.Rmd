@@ -1,3 +1,4 @@
+```R
 ─ Session info ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
  setting  value                       
  version  R version 3.5.2 (2018-12-20)
@@ -134,8 +135,4 @@
  XML              3.99-0   2018-11-14 [1] local            
  xtable           1.8-3    2018-08-29 [1] CRAN (R 3.5.1)   
  yaml             2.2.0    2018-07-25 [1] CRAN (R 3.5.1)   
-
-[1] /home/djambulingam/R/x86_64-pc-linux-gnu-library/3.5
-[2] /usr/local/lib/R/site-library
-[3] /usr/lib/R/site-library
-[4] /usr/lib/R/library
+```
