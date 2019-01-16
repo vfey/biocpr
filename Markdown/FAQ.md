@@ -46,7 +46,7 @@ Gene3			6.474929692		5.982874941		4.702968285
 
 #### Q5: Is there any example data provided?
 
-**A:** Yes, an example data file is provided to try out the tool. You can find the file in `corplot/Data/exampleFIle/` folder.
+**A:** Yes, an example data file is provided to try out the tool. You can find the file in `corplot/Data/` folder.
 
 
 #### Q6: What do colors in the plot indicate?
