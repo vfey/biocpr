@@ -609,15 +609,12 @@ shinyServer(function(input, output, session) {
   
   
   
-  observeEvent(input$show1, {
+  observeEvent(input$showEx, {
     showModal(
       modalDialog(
-        HTML(
-          '<img src="https://gitlab.utu.fi/dhajam/corplot/blob/master/Markdown/FAQ.md">'
-        ),
         title = "Example expression file",
-        easyClose = TRUE,
-        footer = NULL
+        "Formatted example datasets from the GEO database can be obatined from <https://gitlab.utu.fi/dhajam/corplot/tree/master/Data>",
+        easyClose = TRUE
       )
     )
   })
