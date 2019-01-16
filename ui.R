@@ -16,7 +16,7 @@ navbarPage(
            sidebarLayout(
              sidebarPanel(
                fileInput('uploadData', 'Choose Data File'),
-               actionLink(inputId = "show1", label = "Example file"),
+               actionLink(inputId = "showEx", label = "Example file"),
                uiOutput('idColSelect'),
                uiOutput('columnSelect'),
                shinyBS::bsButton('doBiomart', "Get Gene Symbols", style="primary", size="small", type="action"),
