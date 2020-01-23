@@ -63,7 +63,7 @@ navbarPage(
                checkboxInput('addRect4genes', "Highlight Selected Genes", FALSE),
                sliderInput('imgSize', tags$label("Image Size (%)", style="font-size: 14px;"), 100, 800, 100, 20),
                sliderInput('textSize', "Gene Label Size", 0.1, 3, 0.8, 0.1),
-               textInput('plotTitle', "Enter Plot Title", "", placeholder="Dissimilarity = 1 - Correlation"),
+               textInput('plotTitle', "Enter Plot Title", "", placeholder=""),
                tags$div(id='downlButID', style="text-align: center; ", downloadButton('downloadPlot', tags$label("Download as PDF", style="font-size: 14px;"))),
                tags$br(),
                shinyBS::bsButton('toggleAdv', "Show advanced controls", style="primary", size="small", type="toggle", value=FALSE),

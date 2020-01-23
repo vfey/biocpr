@@ -613,7 +613,7 @@ shinyServer(function(input, output, session) {
     showModal(
       modalDialog(
         title = "Example expression file",
-        "Formatted example datasets from the GEO database can be obatined from <https://gitlab.utu.fi/dhajam/corplot/tree/master/Data>",
+        "Formatted example datasets from the GEO database can be obatined from <https://gitlab.utu.fi/dhajam/biocpr/tree/master/Data>",
         easyClose = TRUE
       )
     )
