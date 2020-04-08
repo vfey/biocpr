@@ -1,12 +1,12 @@
-#### Q1. What is corplot?   
+#### Q1. What is BioCPR?   
 
 
-**A:** corplot is an interactive R application developed using the shiny package for plotting correlation heatmaps from gene expression data.
+**A:** BioCPR is an interactive R application developed using the shiny package for plotting correlation heatmaps from gene expression data.
 
 
-#### Q2: I have Ensembl IDs instead of HGNC symbols will I still be able to use corplot ?
+#### Q2: I have Ensembl IDs instead of HGNC symbols will I still be able to use BioCPR ?
 
-**A:** Yes, corplot can be used for visualizing correlation heatmaps with Ensembl IDs (in place of HGNC symbols). Incase you wish to change it to HGNC symbols, corplot has an inbuilt option to retrieve HGNC symbols for corresponding Ensembl IDs from biomart, you can select this option upon uploading the data and corplot will retireve the missing HGNC symbols for corresponding Ensembl Ids.
+**A:** Yes, BioCPR can be used for visualizing correlation heatmaps with Ensembl IDs (in place of HGNC symbols). Incase you wish to change it to HGNC symbols, BioCPR has an inbuilt option to retrieve HGNC symbols for corresponding Ensembl IDs from biomart, you can select this option upon uploading the data and BioCPR will retrieve the missing HGNC symbols for corresponding Ensembl Ids.
 
 
 #### Q3. Can you explain the tabs in the tool?
@@ -23,14 +23,14 @@
 
 4. CORRELATION MATRIX           -	The correlation matrix generated can be viewed in this tab.
 
-5. INFO - This tab presents a drop down with two tabs - 'FAQ' and 'ABOUT', from which frequently asked questions and information regarding availability, prerequisite packages and running information can be otained.
+5. INFO - This tab presents a drop down with two tabs - 'FAQ' and 'ABOUT', from which frequently asked questions and information regarding availability, prerequisite packages and running information can be obtained.
 
-``` 
+```
 
 
 #### Q4: What is the input file format?
 
-**A:** The required input file for corplot is tab separated, where columns represent gene expression values and are labelled with sample names and the rows are labelled according to gene symbols.
+**A:** The required input file for BioCPR is tab separated, where columns represent gene expression values and are labeled with sample names and the rows are labeled according to gene symbols.
 
 ```
 inputFormat.tsv:
@@ -46,7 +46,7 @@ Gene3			6.474929692		5.982874941		4.702968285
 
 #### Q5: Is there any example data provided?
 
-**A:** Yes, an example data file is provided to try out the tool. You can find the file in `corplot/Data/` folder.
+**A:** Yes, an example data file is provided to try out the tool. You can find the file in `biocpr/data/` folder.
 
 
 #### Q6: What do colors in the plot indicate?
@@ -56,9 +56,8 @@ Gene3			6.474929692		5.982874941		4.702968285
 
 #### Q7: Is there a size limit for the expression file?
 
-**A:** The default maximum size limit for files are 5 MB in shiny applications, in corplot the maximum size limit has been modified and set to 40 MB. 
+**A:** The default maximum size limit for files are 5 MB in shiny applications, in BioCPR the maximum size limit has been modified and set to 40 MB.
 
 #### Q8: The app crashes when clicked on the 'CORRELATION HEATMAP' tab?
 
 **A:** It is difficult to determine the cause of the crash, in this scenario the most probable cause would be error in uploaded expression file format, please refer the input file format explained in question 4. The other causes for the crash could be due to R package dependencies with different versions, in this case it better to re-install packages and clear the environment (in RStudio) and run again.
-
