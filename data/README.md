@@ -1,3 +1,3 @@
 ### Example dataset
 
-Example datasets can be found at `biocpr\data\` or can be obtained from [gitlab](https://gitlab.utu.fi/biocpr/corplot/tree/master/Data). The datasets have been downloaded from GEO database (DataSet Record GDS5072) and formatted so that they can be used with BioCPR. For more information on the dataset format, please refer `FAQ`.
+Example datasets can be found at `biocpr\data\` or can be obtained from [gitlab](https://gitlab.utu.fi/dhajam/biocpr/-/tree/master/data). The dataset has been downloaded from The Cancer Genome Atlas (TCGA) dataset consisting of [333 patients with primary prostate cancer](https://www.cbioportal.org/study/summary?id=prad_tcga_pub). The dataset was obtained via the cBioPortal for Cancer Genomics and a subset of the data was created to contain genes commonly associated with cancer. The subset named "PrCaTCGASample.txt" is provided in the data repository.For more information on the dataset format, please refer `FAQ`.

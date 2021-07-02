@@ -12,8 +12,8 @@ The source code and installation instructions can be obtained from [gitlab](http
 
 ### Required Software
 
-BioCPR requires additional in-house R packages in-order to run. The required packages can be obtained from this [link](https://gitlab.utu.fi/dhajam/biocpr).
+BioCPR requires additional in-house R packages in-order to run. The required packages can be obtained from this [link](https://gitlab.utu.fi/dhajam/biocpr/blob/master/packages) or can be installed from github.
 
 ### Frequently asked questions  
 
-Please refer to the [FAQ](https://gitlab.utu.fi/dhajam/biocpr/blob/master/Markdown/FAQ.md) here.
+Please refer to the [FAQ](https://gitlab.utu.fi/dhajam/biocpr/blob/master/markdown/FAQ.md) here.

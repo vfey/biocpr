@@ -1,18 +1,39 @@
 ## Required libraries ##
+# cran_packages <- c("R.methodsS3", "R.oo", "R.utils", "RColorBrewer", "RCurl", "XML", "clipr", "cluster", "curl", "data.table","devtools", "digest", "foreach", "gdata", "ggplot2", "httr", "knitr", "openssl", "plyr", "rmarkdown", "scales", "shiny", "shinyBS", "shinyjs", "shinythemes")
+# bio_packages <- c("AnnotationDbi", "Biobase", "BiocGenerics", "GO.db", "Heatplus","impute", "IRanges", "S4Vectors", "biomaRt", "genefilter", "impute", "latticeExtra", "org.Hs.eg.db", "org.Mm.eg.db", "preprocessCore")
+# 
+# sapply(cran_packages, install.packages)
+# 
+# if (!requireNamespace("BiocManager", quietly = TRUE))
+#   install.packages("BiocManager")
+# BiocManager::install(bio_packages)
+# 
+# BiocManager::install("Heatplus")
+# install.packages("WGCNA")
+# devtools::install_github("cancer-genetics-utu/readR")
+# devtools::install_github("cancer-genetics-utu/medseqr")
+# devtools::install_github("cancer-genetics-utu/coreheat")
+# devtools::install_github("cancer-genetics-utu/genRal")
+# devtools::install_github("cancer-genetics-utu/heatmapGen")
+# devtools::install_github("cancer-genetics-utu/heatmapGen2")
+# devtools::install_github("cancer-genetics-utu/PAMhm")
 
 library(shiny)
 library(shinyBS)
 library(plyr)
 library(RColorBrewer)
-library(readR)
-library(medseqr)
-library(heatmapGen2)
 library(genefilter)
 library(DT)
-library(PAMhm)
-library(coreheat)
 library(digest)
-options(shiny.maxRequestSize = 40 * 1024 ^ 2)#increase maximum upload size for fileInput() to 40 MB
+library(readR)
+library(medseqr)
+library(coreheat)
+library(genRal)
+library(heatmapGen)
+library(heatmapGen2)
+library(PAMhm)
+
+options(shiny.maxRequestSize = 52 * 1024 ^ 2)#increase maximum upload size for fileInput() to 40 MB
 #library(shinysky)
 
 

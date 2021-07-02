@@ -1,0 +1,10 @@
+name: corplot
+title:
+username:
+account: biocpr
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2285412
+bundleId: 3220865
+url: https://biocpr.shinyapps.io/corplot/
+when: 1591145681.80498

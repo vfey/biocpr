@@ -104,15 +104,15 @@ navbarPage(
              tabPanel("About",
                       h4("About"),
                       hr(),
-                      includeMarkdown("Markdown/README.md")),
+                      includeMarkdown("markdown/README.md")),
              tabPanel("FAQ",
                       h4("Frequently Asked Quesitons"),
                       hr(),
-                      includeMarkdown("Markdown/FAQ.md")),
+                      includeMarkdown("markdown/FAQ.md")),
              tabPanel("Session Information",
                       h4("R session information"),
                       hr(),
-                      includeMarkdown("Markdown/RSessionInfo.Rmd"))
+                      includeMarkdown("markdown/RSessionInfo.Rmd"))
              ),
   id='mainNavbarPage', footer=list(tags$hr(), tags$table(style="width: 100%; ", tags$tbody(tags$tr(tags$th(style="text-align: center; ", tags$label(style="font-family: Verdana; font-size: 12pt; font-weight: normal; color: grey; ", "This app has been created and is maintained by the Institute of Biomedicine, University of Turku."))))))
 )
