@@ -8,12 +8,45 @@ BioCPR tool is intended for visualization purpose only and should not be used fo
 
 ### Availability  
 
-The source code and installation instructions can be obtained from [gitlab](https://gitlab.utu.fi/dhajam/biocpr).
+The source code and installation instructions can be obtained from [gitlab](https://github.com/vfey/biocpr/).
 
 ### Required Software
 
-BioCPR requires additional in-house R packages in-order to run. The required packages can be obtained from this [link](https://gitlab.utu.fi/dhajam/biocpr/blob/master/packages) or can be installed from github.
+BioCPR requires 4 R-packages in-order to run. 
+
+You can either install the stable version from CRAN and it will install all the necessary depencies for running the tool. Please find the commands below;
+
+install.packages("heatmapFlex")
+install.packages("convertid")
+install.packages("readmoRe")
+install.packages("coreheat")
+
+If you prefer to install the latest development version, there are 4 custom in-built libraries that needs to be installed in addition to libraries from CRAN and BioConductor. Please find the commands below;
+
+.libPaths()
+libLocation <- .libPaths()[1]
+
+## CRAN packages ##
+cranPackages <- c("shinyBS", "shinythemes", "knitr", "rmarkdown", "shinyjs", "plyr", "RColorBrewer", "R.utils", "gdata", "data.table", "foreach", "ggplot2", "scales", "curl", "openssl", "httr", "Rcurl", "XML", "WGCNA", "DT", "devtools")
+sapply(cranPackages, install.packages, lib = libLocation)
+
+## Bioconductor packages ##
+
+bioConPackages <- c("AnnotationDbi", "biomaRt", "org.Hs.eg.db", "org.Mm.eg.db", "Heatplus", "genefilter", "impute", "preprocessCore", "GO.db")
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
+install.packages("BiocManager")
+BiocManager::install(bioConPackages)
+
+## In-house packages ##
+
+install_github("vfey/heatmapFlex")
+install_github("vfey/convertid")
+install_github("vfey/readmoRe")
+install_github("vfey/coreheat")
+
+The required packages can also be obtained from this [link](https://github.com/vfey/biocpr/tree/main/packages/).
 
 ### Frequently asked questions  
 
-Please refer to the [FAQ](https://gitlab.utu.fi/dhajam/biocpr/blob/master/markdown/FAQ.md) here.
+Please refer to the [FAQ](https://github.com/vfey/biocpr/blob/main/markdown/FAQ.md) here.
